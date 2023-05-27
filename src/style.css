@@ -1,0 +1,64 @@
+.icons1{
+    color: rgb(145, 15, 26);
+}
+
+.icons2{
+    color: rgb(0, 45, 128);
+}
+.icons3{
+    color: rgb(36, 31, 31);
+}
+.grid{
+      display: grid;
+      place-content: center;
+      grid-template-columns: repeat(3, 100px);
+      grid-template-rows: repeat(3, 100px);
+      grid-gap: 10px;
+      padding: 20px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px gray;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+.grid .box{
+     display:  flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(201, 224, 72);
+     font-size: 3rem;
+     border-radius: 8px;
+     border: 1px solid rgb(255, 94, 0);
+     box-shadow: 2px 2px 2px 3px rgb(241, 239, 239);
+
+}
+
+button{
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    box-shadow: 2px 2px 2px 2px rgb(248, 247, 247);
+    margin-left: 45%;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
+.won{
+    color: rgb(165, 8, 8);
+    text-shadow: 2px 2px 2px rgb(27, 25, 25);
+    background-color: rgb(238, 215, 215);
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 50%;
+    padding: 10px;
+}
